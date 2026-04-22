@@ -19,7 +19,7 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://irwan.vercel.app/"),
   title: "Irwan Adinata - Web Developer",
   description:
     "Personal portfolio of Irwan Adinata, a Fullstack Web Developer from Indonesia specializing in React, Next.js, Node.js, and modern web technologies.",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "http://localhost:3000",
+    url: "https://irwan.vercel.app/",
     siteName: "Irwan Adinata Portfolio",
     title: "Irwan Adinata — Fullstack Web Developer",
     description:
