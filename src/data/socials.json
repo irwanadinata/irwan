@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Email",
+    "url": "mailto:irwanadinata8@gmail.com",
+    "icon": "FaEnvelope",
+    "color": "#EA4335"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com/in/irwanadinata",
+    "icon": "FaLinkedin",
+    "color": "#0077B5"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://wa.me/6285156895256",
+    "icon": "FaWhatsapp",
+    "color": "#25D366"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com/irwanadinata_",
+    "icon": "FaInstagram",
+    "color": "#E1306C"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/irwanadinata",
+    "icon": "FaGithub",
+    "color": "#6e5494"
+  }
+]
