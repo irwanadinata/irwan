@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "contact": "Kontak",
+    "downloadCV": "Unduh CV"
+  },
+  "hero": {
+    "greeting": "👋 Halo, Saya",
+    "name": "Irwan Adinata",
+    "role": "Fullstack Web Developer",
+    "subtitle": "Saya membangun aplikasi web modern dan berperforma tinggi dari antarmuka yang intuitif hingga backend yang tangguh.",
+    "cta": "Lihat Proyek Saya",
+    "downloadCV": "Unduh CV",
+    "available": "Siap bekerja",
+    "hireMe": "Rekrut Saya"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Sedikit latar belakang",
+    "description": "Saya adalah seorang web developer yang berdedikasi dan antusias dengan pengalaman menggunakan bahasa pemrograman JavaScript dan TypeScript serta framework seperti React JS, Next JS, dan Express JS. Saya memiliki minat yang kuat dalam membangun aplikasi web yang responsif, efisien, dan ramah pengguna. Dengan latar belakang yang solid di bidang pengembangan front-end maupun back-end, saya berkomitmen untuk terus belajar dan berkembang di industri teknologi.",
+    "description2": "Di luar coding, saya mendedikasikan waktu untuk mengeksplorasi teknologi terbaru dan mengikuti perkembangan industri. Saya percaya bahwa belajar tanpa henti adalah fondasi utama dalam menghasilkan perangkat lunak yang berkualitas dan andal.",
+    "techStack": "Tech Stack"
+  },
+  "projects": {
+    "title": "Proyek Saya",
+    "subtitle": "Yang telah saya bangun",
+    "all": "Semua",
+    "fullstack": "Fullstack",
+    "frontend": "Frontend",
+    "featured": "Unggulan",
+    "viewDemo": "Lihat Demo",
+    "viewCode": "Kode Sumber",
+    "noProjects": "Tidak ada proyek ditemukan."
+  },
+  "skills": {
+    "title": "Keahlian & Teknologi",
+    "subtitle": "Yang saya gunakan",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "tools": "Tools & Lainnya"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Mari bekerja sama",
+    "description": "Punya proyek atau ingin berkolaborasi? Saya ingin mendengar dari Anda. Kirim pesan dan saya akan membalas sesegera mungkin.",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "namePlaceholder": "Budi Santoso",
+    "emailPlaceholder": "budi@contoh.com",
+    "subjectPlaceholder": "Pertanyaan Proyek",
+    "messagePlaceholder": "Ceritakan tentang proyek atau ide Anda...",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim! Saya akan segera membalas.",
+    "error": "Oops! Terjadi kesalahan. Silakan coba lagi.",
+    "orReach": "Atau hubungi saya di"
+  },
+  "footer": {
+    "tagline": "Saya menulis code, lalu sesuatu terjadi.",
+    "rights": "Hak cipta dilindungi."
+  }
+}
