@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "title": "Public Relations Service System",
+    "description": "A web application developed for the Public Relations service system at Telkom University, featuring five types of services: Event Coverage, Equipment and Inventory Loan, News Publication, Partnership, and Template Download.",
+    "shortDescription": "Public relations service management system",
+    "tech": ["React.js", "Express.js", "Javascript", "MySQL"],
+    "image": "/projects/1.png",
+    "demo": "https://front-end-humas-telkom.vercel.app/",
+    "githubFrontend": "https://github.com/irwanadinata/front-end_humas_telkom",
+    "githubBackend": "https://github.com/irwanadinata/back-end_humas_telkom",
+    "featured": true,
+    "category": "fullstack"
+  },
+  {
+    "id": 2,
+    "title": "About Movies",
+    "description": "A web application that offers detailed information about films and uses AI to recommend movies based on user preferences. The platform features comprehensive movie details and an intelligent recommendation system that helps users discover films suited to their tastes.",
+    "shortDescription": "Movie information app with AI-based recommendations",
+    "tech": ["React.js", "Javascript", "Tailwind CSS", "Firebase"],
+    "image": "/projects/2.png",
+    "demo": "https://about-movies-tan.vercel.app/",
+    "githubFrontend": "https://github.com/irwanadinata/about-movies",
+    "featured": true,
+    "category": "frontend"
+  },
+  {
+    "id": 3,
+    "title": "SIMABA",
+    "description": "Web application developed to streamline the new student admissions process at Banten Jaya University.",
+    "shortDescription": "New student admissions process",
+    "tech": ["React.js", "Express.js", "Javascript", "MySQL"],
+    "image": "/projects/3.png",
+    "demo": "https://frontend-user-simaba.vercel.app/",
+    "githubFrontend": "https://github.com/irwanadinata/frontend_user_simaba",
+    "githubBackend": "https://github.com/irwanadinata/backend_simaba",
+    "featured": true,
+    "category": "fullstack"
+  },
+  {
+    "id": 4,
+    "title": "Admin Dashboard Raih Peduli",
+    "description": "Donation collection application that facilitates the creation, management, and tracking of charitable campaigns.",
+    "shortDescription": "Donation collection application",
+    "tech": ["React", "Javascript", "Tailwind CSS"],
+    "image": "/projects/4.png",
+    "demo": "#",
+    "githubFrontend": "https://github.com/irwanadinata/react-raih-peduli",
+    "featured": true,
+    "category": "frontend"
+  },
+  {
+    "id": 5,
+    "title": "TALazada",
+    "description": "Web application designed to deliver a comprehensive online shopping experience. Users can browse products, add items to their cart, adjust quantities, and complete purchases through an efficient checkout and payment process.",
+    "shortDescription": "Online shopping experience",
+    "tech": ["React", "Javascript", "Tailwind CSS"],
+    "image": "/projects/5.png",
+    "demo": "https://talazada.vercel.app/dashboard",
+    "githubFrontend": "https://github.com/irwanadinata/freelance-ecommerce",
+    "featured": true,
+    "category": "frontend"
+  },
+  {
+    "id": 6,
+    "title": "Quiz App",
+    "description": "Web application developed to provide an interactive quiz experience by integrating real-time trivia questions from the Open Trivia Database (OpenTDB)",
+    "tech": ["React", "Javascript", "Tailwind CSS"],
+    "shortDescription": "Interactive quiz experience",
+    "image": "/projects/6.png",
+    "demo": "https://quiz-app-delta-tan.vercel.app/",
+    "githubFrontend": "https://github.com/irwanadinata/QuizApp",
+    "featured": true,
+    "category": "frontend"
+  },
+  {
+    "id": 7,
+    "title": "Homepage Lasles VPN",
+    "description": "Project focused on slicing Figma designs into a fully functional web interface. This project involved slicing and converting high-fidelity Figma designs into a responsive and interactive website, showcasing meticulous attention to detail and design accuracy.",
+    "shortDescription": "Homepage",
+    "tech": ["HTML", "CSS"],
+    "image": "/projects/7.png",
+    "demo": "https://lasles-vpn-olive.vercel.app/",
+    "githubFrontend": "https://github.com/irwanadinata/LaslesVPN",
+    "featured": false,
+    "category": "frontend"
+  }
+]
