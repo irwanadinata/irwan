@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "👋 Hello, I'm",
+    "name": "Irwan Adinata",
+    "role": "Fullstack Web Developer",
+    "subtitle": "I craft modern, performant web applications from intuitive frontends to robust backends.",
+    "cta": "View My Work",
+    "downloadCV": "Download CV",
+    "available": "Available for work",
+    "hireMe": "Hire Me"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A little background",
+    "description": "I am a dedicated and enthusiastic web developer with experience in using JavaScript and TypeScript programming language and frameworks such as React JS, Next JS, and Express JS. I have a strong interest in creating responsive, efficient, and user-friendly web applications. With a solid background in both front-end and back-end development, I am committed to continuous learning and growth in the technology industry.",
+    "description2": "Outside of coding, I dedicate my time to exploring new technologies and staying ahead of industry trends. I believe continuous learning is the foundation of delivering high-quality, reliable software.",
+    "techStack": "Tech Stack"
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Things I've built",
+    "all": "All",
+    "fullstack": "Fullstack",
+    "frontend": "Frontend",
+    "featured": "Featured",
+    "viewDemo": "Live Demo",
+    "viewCode": "Source Code",
+    "noProjects": "No projects found."
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "What I work with",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "tools": "Tools & Others"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together",
+    "description": "Have a project in mind or want to collaborate? I'd love to hear from you. Send me a message and I'll get back to you as soon as possible.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "john@example.com",
+    "subjectPlaceholder": "Project Inquiry",
+    "messagePlaceholder": "Tell me about your project or idea...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll reply soon.",
+    "error": "Oops! Something went wrong. Please try again.",
+    "orReach": "Or reach me on"
+  },
+  "footer": {
+    "tagline": "I write code, things happen",
+    "rights": "All rights reserved."
+  }
+}
