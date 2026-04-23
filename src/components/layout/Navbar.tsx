@@ -50,6 +50,22 @@ export default function Navbar() {
 
   const closeMenu = () => setIsOpen(false);
 
+  const handleMobileNavClick = (href: string) => {
+    const targetId = href.substring(1);
+    const element = document.getElementById(targetId);
+    setIsOpen(false);
+    if (element) {
+      setTimeout(() => {
+        const navbarHeight = 64;
+        const elementTop = element.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: elementTop - navbarHeight,
+          behavior: "smooth",
+        });
+      }, 350); // tunggu animasi close menu selesai dulu
+    }
+  };
+
   return (
     <motion.header
       initial={{ y: -80, opacity: 0 }}
@@ -190,21 +206,20 @@ export default function Navbar() {
           >
             <div className="px-4 py-4 flex flex-col gap-1">
               {navLinks.map((link, i) => (
-                <motion.a
+                <motion.button
                   key={link.key}
-                  href={link.href}
-                  onClick={closeMenu}
+                  onClick={() => handleMobileNavClick(link.href)}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.05, duration: 0.25 }}
-                  className={`py-3 px-4 rounded-xl text-base font-medium transition-all ${
+                  className={`w-full text-left py-3 px-4 rounded-xl text-base font-medium transition-all ${
                     activeSection === link.href.substring(1)
                       ? "text-primary-500 dark:text-accent-400 bg-primary-50/50 dark:bg-white/10"
                       : "text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5"
                   }`}
                 >
                   {t(link.key)}
-                </motion.a>
+                </motion.button>
               ))}
 
               <div className="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-white/10 mt-2">
