@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   title: "Irwan Adinata - Web Developer",
   description:
     "Personal portfolio of Irwan Adinata, a Fullstack Web Developer from Indonesia specializing in React, Next.js, Node.js, and modern web technologies.",
+  verification: {
+    google: "UtDT6FLwnLmGRONsRuPKSETUc1_qEjQMk6yvwjbh-Z4",
+  },
   keywords: [
     "Irwan Adinata",
     "Fullstack Developer",
