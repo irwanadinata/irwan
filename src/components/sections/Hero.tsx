@@ -37,13 +37,6 @@ export default function Hero() {
             animate="visible"
             className="space-y-6 order-2 lg:order-1"
           >
-            <motion.div variants={itemVariants}>
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <Sparkles size={13} />
-                {t("hero.available")}
-              </span>
-            </motion.div>
             <motion.p
               variants={itemVariants}
               className="text-slate-600 dark:text-slate-400 text-lg font-medium"
