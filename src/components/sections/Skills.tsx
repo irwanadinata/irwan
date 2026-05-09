@@ -18,6 +18,7 @@ import {
   SiGithub,
   SiPostman,
   SiDocker,
+  SiPrisma,
 } from "react-icons/si";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -50,6 +51,7 @@ const skillGroups: { labelKey: string; skills: Skill[] }[] = [
     skills: [
       { name: "MySQL", icon: SiMysql, color: "#4479A1" },
       { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
+      { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
     ],
   },
   {
