@@ -27,9 +27,7 @@ export default function Footer() {
               href="#home"
               className="inline-block font-bold text-2xl tracking-tight"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">
-                IR
-              </span>
+              <img src="/logo/logo.png" alt="Logo" className="h-8 w-auto" />
             </a>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               {t("footer.tagline")}

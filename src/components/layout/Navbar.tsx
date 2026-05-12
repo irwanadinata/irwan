@@ -62,7 +62,7 @@ export default function Navbar() {
           top: elementTop - navbarHeight,
           behavior: "smooth",
         });
-      }, 350); // tunggu animasi close menu selesai dulu
+      }, 350);
     }
   };
 
@@ -84,9 +84,11 @@ export default function Navbar() {
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
         >
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-accent-400">
-            IR
-          </span>
+          <img 
+            src="/logo/logo.png" 
+            alt="Logo" 
+            className="h-8 w-auto mt-1" 
+          />
         </motion.a>
 
         <ul className="hidden md:flex items-center gap-1">
